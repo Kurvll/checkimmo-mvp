@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #F3F4F6;
+    color: #1F2937;
+}
+header {
+    background: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 1.8em;
+    font-weight: 700;
+}
+.logo .check { color: #60A5FA; }
+.logo .immo { color: #1E3A8A; }
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #1F2937;
+    font-weight: 500;
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #1E3A8A, #60A5FA);
+    color: white;
+}
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+form input[type="text"] {
+    padding: 15px;
+    width: 50%;
+    max-width: 500px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 1em;
+}
+form button {
+    padding: 15px 25px;
+    background-color: #10B981;
+    border: none;
+    color: white;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    gap: 40px;
+    background: white;
+}
+.feature {
+    max-width: 300px;
+}
+.feature h3 {
+    color: #1E3A8A;
+}
+footer {
+    background: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
